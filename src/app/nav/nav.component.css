@@ -1,0 +1,40 @@
+/* ALL SCREENS */
+
+nav {
+    margin-top: 25px;
+    color: #fff;
+}
+
+li a {
+    color: inherit;
+}
+
+/* MEDIUM SCREEN & UP */
+
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .logo {
+        min-height: 120px;
+        height: 13vh;
+    }    
+}
+
+/* SMALL SCREEN & DOWN */
+
+@media screen and (max-width: 767px) {
+    .middle-logo {
+        display: none !important;
+    }
+
+    li.nav-item {
+        text-align: center;
+    }
+
+    .logo {
+        min-height: 100px;
+        height: 10vh;
+    }
+}

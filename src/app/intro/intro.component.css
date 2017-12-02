@@ -1,0 +1,57 @@
+/* ALL SCREENS */
+
+.jumbotron {
+    background-color: transparent;
+
+    padding-top: 0;
+
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron > h1 {
+    font-family: 'Laila', serif;
+    font-weight: bold;
+}
+
+.lead {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.lead > .btn {
+    font-size: .8em;
+    color: #fff;
+
+    padding: 12px 0 12px 0;
+
+    border: .13em solid #fff;
+    border-radius: 3px !important;
+}
+
+.lead >.btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+
+    background: url('/assets/icons/down-empty.png') no-repeat center;
+}
+
+.icon:hover {
+    background: url('/assets/icons/down-filled.png') no-repeat center;
+}
+
+/* MEDIUM SCREEN & UP */
+
+@media screen and (min-width: 768px) {
+
+}
+
+/* SMALL SCREEN & DOWN */
+
+@media screen and (max-width: 767px) {
+
+}

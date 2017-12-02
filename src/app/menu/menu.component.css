@@ -1,0 +1,58 @@
+/* ALL SCREENS */
+
+.page-title > h1 {
+    font-family: 'Laila', serif;
+    font-weight: bold;
+    text-align: center;
+
+    
+}
+
+.menu-titles-container {
+    border: 2px solid blue;
+}
+
+.menu-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu-title:first-of-type {
+    text-align: right;
+}
+
+.menu-title > a {
+    padding-bottom: 10px;
+
+    text-decoration: none;
+}
+
+.menu-title:active {
+    border-bottom: 2px solid black;
+}
+
+.menu-items-container {
+    display: flex;
+    align-items: stretch;
+
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.menu-items-container > div {
+    border: 2px solid red;
+    width: 50vw;
+}
+
+/* MEDIUM SCREEN & UP */
+
+@media screen and (min-width: 768px) {
+
+}
+
+/* SMALL SCREEN & DOWN */
+
+@media screen and (max-width: 767px) {
+
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Laila:700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.app {
+    min-height: 800px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.app > * {
+    height: 100vh;
+    margin: 0;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+
+    background: url('/assets/images/foodtruck.jpg');
+    background-size: cover;
+}
+
+.overlay:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+top-nav {
+    text-align: center;  
+}
+
+intro {
+    min-height: 400px;
+
+    /* PARENT FLEX ATTRIBUTES */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* CHILD FLEX ATTRIBUTES */
+    flex-grow: 2;
+    flex-shrink: 2;
+
+    z-index: 1;
+}
+
+menu {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,8 +1,70 @@
-.page-title > h1 {
-    font-family: 'Laila', serif;
+.page-title > h2 {
+    font-size: 3em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
     text-align: center;
     color: #fff;
+}
 
-    margin-top: 70px;
+section {   
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+}
+
+section > div {
+    margin: 40px 20px;
+    width: 350px;
+}
+
+p {
+    font-size: .9em;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+.img {
+    height: 30em;
+}
+
+.about-img {
+    background: url('/assets/images/foodtruck.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.history-img {
+    background: url('/assets/images/msena.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* WIDESCREEN & UP */
+
+@media screen and (min-width: 1600px) {
+
+}
+
+
+/* LARGE SCREEN & UP */
+
+@media screen and (min-width: 992px) {
+
+}
+
+/* MEDIUM SCREEN */
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+}
+
+/* SMALL SCREEN & DOWN */
+
+@media screen and (max-width: 767px) {
+    .btn-group-lg > button {
+        font-size: 1em;
+        width: 120px;
+    }
 }

@@ -8,10 +8,16 @@
 
 section {   
     display: flex;
-    flex-wrap: wrap;
-
     align-items: center;
     justify-content: center;
+}
+
+section.about {
+    flex-wrap: wrap-reverse;
+}
+
+section.history {
+    flex-wrap: wrap;
 }
 
 section > div {
@@ -63,8 +69,12 @@ p {
 /* SMALL SCREEN & DOWN */
 
 @media screen and (max-width: 767px) {
-    .btn-group-lg > button {
-        font-size: 1em;
-        width: 120px;
+    .img {
+        height: 20em;
+    }
+
+    section > div {
+        width: 300px;
+        margin: 20px 10px;
     }
 }

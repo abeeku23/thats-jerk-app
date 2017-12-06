@@ -37,6 +37,8 @@
     height: 50px;
     width: 50px;
 
+    
+
     background: url('/assets/icons/down-empty.png') no-repeat center;
 }
 
@@ -47,11 +49,15 @@
 /* MEDIUM SCREEN & UP */
 
 @media screen and (min-width: 768px) {
-
+    .jumbotron > h1 {
+        font-size: 6vw;
+    }
 }
 
 /* SMALL SCREEN & DOWN */
 
 @media screen and (max-width: 767px) {
-
+    .jumbotron > h1 {
+        font-size: 10vw;
+    }
 }

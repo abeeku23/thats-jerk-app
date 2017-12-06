@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class IntroComponent {
-
+  scrollTo(location: string) {
+    document.getElementById(location).scrollIntoView({ behavior: 'smooth'});
+  }
 }

@@ -6,12 +6,29 @@ nav {
 }
 
 li a {
-    color: inherit;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #fff !important;
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler > img {
+    height: 35px;
 }
 
 /* MEDIUM SCREEN & UP */
 
 @media screen and (min-width: 768px) {
+    nav {
+        margin-top: 25px;
+    }
+
     .navbar-brand {
         display: none;
     }
@@ -25,6 +42,10 @@ li a {
 /* SMALL SCREEN & DOWN */
 
 @media screen and (max-width: 767px) {
+    nav {
+        margin-top: 10px;
+    }
+
     .middle-logo {
         display: none !important;
     }

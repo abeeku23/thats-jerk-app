@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Laila:700');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
 
 .app {
     min-height: 800px;
@@ -8,28 +9,26 @@
     flex-direction: column;
 }
 
-.app > * {
-    height: 100vh;
+.app > *:first-child {
+    min-height: 100vh;
     margin: 0;
 }
 
-.landing {
+.app > div {
     display: flex;
     flex-direction: column;
-
-    background: url('/assets/images/foodtruck.jpg');
-    background-size: cover;
 }
 
-.overlay:before {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+#landing {
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ),
+    /* bottom, image */
+    url('/assets/images/foodtruck.jpg');
+    background-size: cover;
 }
 
 top-nav {
@@ -54,6 +53,42 @@ intro {
 
 menu {
     padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
+
+    /* background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.7), 
+      rgba(255, 255, 255, 0.7)
+    ),
+    url('/assets/images/wrap.jpg');
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+about {
+    display: flex;
+    flex-direction: column;
+
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url('/assets/images/fam.jpg');
+    background-size: cover;
+}
+
+yelp {
+    border: 5px solid blue;
+}
+
+stops {
+    flex-grow: 2;
+    flex-shrink: 2;
+
+    border: 5px solid red;
 }

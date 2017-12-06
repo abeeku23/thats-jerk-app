@@ -5,7 +5,7 @@ export const MenuItems: MenuItem[] = [
         "id": 1,
         "name": "Rice Box",
         "type": "entrée",
-        "description": "Jamaican Rice & Beans w/ Caribbean Slaw",
+        "description": "Jamaican rice & beans with Caribbean Slaw",
         "price": 8,
         "minPrice": 8,
         "maxPrice": 10,
@@ -101,22 +101,22 @@ export const MenuItems: MenuItem[] = [
         "maxPrice": null,
         "menu": "Food Truck"
     },
-    {
-        "id": 11,
-        "name": "Jamaican Ginger Beer",
-        "type": "drink",
-        "description": "Homemade non-alcoholic drink",
-        "price": 1,
-        "minPrice": null,
-        "maxPrice": null,
-        "menu": "Food Truck"
-    },
+    // {
+    //     "id": 11,
+    //     "name": "Jamaican Ginger Beer",
+    //     "type": "drink",
+    //     "description": "Homemade non-alcoholic drink",
+    //     "price": 1,
+    //     "minPrice": null,
+    //     "maxPrice": null,
+    //     "menu": "Food Truck"
+    // },
     {
         "id": 12,
         "name": "Spicy Jerk",
         "type": "sauce",
         "description": "Ms. Ena`s secret jerk sauce (6 out of spicy level)",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Food Truck"
@@ -126,7 +126,7 @@ export const MenuItems: MenuItem[] = [
         "name": "BBQ Jerk",
         "type": "sauce",
         "description": "Sweet BBQ with a small kick",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Food Truck"
@@ -136,7 +136,7 @@ export const MenuItems: MenuItem[] = [
         "name": "Just Jerks` Smoky Aioli",
         "type": "sauce",
         "description": "Pimento and garlic based aioli sauce",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Food Truck"
@@ -146,7 +146,7 @@ export const MenuItems: MenuItem[] = [
         "name": "Kickin` Ketchup",
         "type": "sauce",
         "description": "Ketchup infused with scotch bonnet peppers",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Food Truck"
@@ -156,7 +156,7 @@ export const MenuItems: MenuItem[] = [
         "name": "Caribbean Slaw",
         "type": "sauce",
         "description": "Vinegar Based shredded cabbage, seasoned with carrots",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Food Truck"
@@ -166,7 +166,7 @@ export const MenuItems: MenuItem[] = [
         "name": "Pico de Gallo",
         "type": "sauce",
         "description": "Chopped tomatoes, onion, cilantro, bell peppers, and lemon juice",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Food Truck"
@@ -256,7 +256,7 @@ export const MenuItems: MenuItem[] = [
         "name": "Pico de Gallo",
         "type": "sauce",
         "description": "Fresh diced tomato, bell pepper, red onion, carrots, and cilantro",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Catering"
@@ -266,7 +266,7 @@ export const MenuItems: MenuItem[] = [
         "name": "Mango Salsa",
         "type": "sauce",
         "description": "Fresh diced mango, red onion, carrots, and cilantro",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Catering"
@@ -276,7 +276,7 @@ export const MenuItems: MenuItem[] = [
         "name": "BBQ Jerk",
         "type": "sauce",
         "description": "Sweet BBQ with a small kick",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Catering"
@@ -286,7 +286,7 @@ export const MenuItems: MenuItem[] = [
         "name": "Spicy Jerk",
         "type": "sauce",
         "description": "Ms. Ena`s secret jerk sauce (6 out of spicy level)",
-        "price": 0,
+        "price": null,
         "minPrice": null,
         "maxPrice": null,
         "menu": "Catering"

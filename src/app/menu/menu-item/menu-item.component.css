@@ -1,0 +1,27 @@
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    width: 100%;
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item-name {    
+    font-weight: bold;
+}
+
+.menu-item-price, .menu-item-description {
+    color: #3D2D00;
+}
+
+.menu-item-description {
+    font-size: .8em;
+}

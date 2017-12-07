@@ -46,10 +46,6 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
     this.allItems = MenuItems; 
 
-    // this.uniqueItemTypes = this.allItems
-    // .map(item => item.type)
-    // .filter((value, index, self) => self.indexOf(value) === index);
-
     this.updateDisplayItems();
   }
 }

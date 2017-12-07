@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { YelpReview } from '../yelp-review';
+import { YelpReviews } from '../yelp-reviews';
+import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
 
 @Component({
   selector: 'yelp',
@@ -6,6 +9,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./yelp.component.css']
 })
 
-export class YelpComponent {
+export class YelpComponent implements OnInit{
+  reviews: YelpReview[];
 
+  ngOnInit(): void {
+    this.reviews = YelpReviews;
+  }
 }

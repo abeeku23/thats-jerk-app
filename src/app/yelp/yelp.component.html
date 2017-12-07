@@ -1,3 +1,9 @@
 <div class="page-title">
-        <h1>Yelp</h1>
-    </div>
+    <h2>Our Customers</h2>
+</div>
+<div class="review-container mt-3">
+    <yelp-review *ngFor="let review of reviews" class="mx-3" [review]="review"></yelp-review>
+</div>
+<a href="https://www.yelp.com/biz/just-jerks-enas-jamaican-grill-loveland" alt="Review us on Yelp!">
+    <img class="yelp-logo" src="/assets/images/yelp-logo.png" />
+</a>

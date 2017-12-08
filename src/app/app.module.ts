@@ -12,6 +12,7 @@ import { StopsComponent } from './stops/stops.component';
 import { MenuItemComponent } from './menu/menu-item/menu-item.component';
 import { YelpReviewComponent } from './yelp/review/review.component';
 import { FooterComponent } from './footer/footer.component';
+import { PressComponent } from './press/press.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     YelpComponent,
     YelpReviewComponent,
     StopsComponent,
-    FooterComponent
+    FooterComponent,
+    PressComponent
   ],
   imports: [
     BrowserModule,

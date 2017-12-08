@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import $ = require("jquery");
 
 @Component({
   selector: 'intro',
@@ -8,6 +9,8 @@ import { Component } from '@angular/core';
 
 export class IntroComponent {
   scrollTo(location: string) {
-    document.getElementById(location).scrollIntoView({ behavior: 'smooth'});
+    $('html, body').animate({
+        scrollTop: $("#" + location).offset().top
+    }, 1200);
   }
 }

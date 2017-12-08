@@ -1,3 +1,35 @@
 <div class="page-title">
-        <h1>Stops</h1>
+    <h2>Stops</h2>
+</div>
+<div class="map-stops">
+    <div class="map-container">
+        <div id="map"></div>
     </div>
+    <div class="stops-container">
+        <h3>Upcoming Stops</h3>
+        <div class="truck-stops">
+            <div *ngFor="let stop of stops" class="truck-stop mb-2">
+                <div class="stop-date">
+                    <span class="date">{{ stop.startDate | date : "dd" }}</span>
+                    <span class="month text-uppercase">{{ stop.startDate | date : "MMM" }}</span>
+                </div>
+                <div class="stop-location">
+                    <div>
+                        <span class="stop-name text-uppercase">{{stop.locationName}}</span>
+                        <span class="stop-time">{{ stop.startDate | date : "ha" }} - {{ stop.endDate | date : "ha" }}</span>
+                    </div>
+                    <div>
+                        <span class="stop-address">{{stop.locationAddress}}</span>
+                        <span class="stop-city">{{stop.city}}, {{stop.state}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="truck-contact">
+                <div class="tag">WANT US NEAR YOU?</div>
+                <div class="small"><a href="mailto:info@thatsjerk.com"><img src="/assets/icons/email.png"/>SEND US AN EMAIL</a></div>
+                OR
+                <div class="small"><a href="https://www.facebook.com/EnasJerkmania" target="_blank"><img src="/assets/icons/facebook.png"/>SEND US A MESSAGE</a></div>
+            </div>
+        </div>
+    </div>
+</div>

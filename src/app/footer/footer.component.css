@@ -1,0 +1,21 @@
+.footer-container {
+    width: 100%;
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    color: rbg(120, 120, 120);
+}
+
+.logo {
+    height: 75px;
+}
+
+p {
+    
+}

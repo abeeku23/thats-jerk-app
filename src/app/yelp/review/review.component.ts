@@ -8,10 +8,6 @@ import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
   styleUrls: ['./review.component.css']
 })
 
-export class YelpReviewComponent implements OnInit{
+export class YelpReviewComponent {
   @Input() review: YelpReview;
-
-  ngOnInit() {
-    console.log(this.review);
-  }
 }

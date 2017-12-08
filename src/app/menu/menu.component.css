@@ -15,6 +15,10 @@
     font-weight: bold;
 }
 
+strong {
+    color: red;
+}
+
 .icons {
     max-width: 500px;
 
@@ -102,7 +106,7 @@ menu-item {
 menu-item:hover {
     cursor: default;
 
-    text-shadow: -2px 2px 3px rgb(85, 85, 85);
+    box-shadow: 2px 2px 4px rgb(126, 105, 10);
 }
 
 menu-item:last-child {

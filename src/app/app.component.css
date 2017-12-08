@@ -97,7 +97,24 @@ stops {
     flex-grow: 2;
     flex-shrink: 2;
 
-    border: 5px solid red;
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    /* bottom, image */
+    url('/assets/images/foodtruck.jpg');
+
+    color: white;
 
     padding: 70px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 300px;
 }

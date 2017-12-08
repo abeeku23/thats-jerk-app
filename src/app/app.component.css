@@ -118,3 +118,37 @@ footer {
 
     min-height: 300px;
 }
+
+/* WIDESCREEN & UP */
+
+@media screen and (min-width: 1600px) {
+    
+    }
+    
+    /* LARGE SCREEN & UP */
+    
+    @media screen and (min-width: 992px) {
+    
+    }
+    
+    /* MEDIUM SCREEN */
+    
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+    
+    }
+    
+    /* SMALL SCREEN & DOWN */
+    
+    @media screen and (max-width: 767px) {
+        #landing {
+            background: 
+            /* top, transparent red */ 
+            linear-gradient(
+              rgba(0, 0, 0, 0.7), 
+              rgba(0, 0, 0, 0.7)
+            ),
+            /* bottom, image */
+            url('/assets/images/truck.jpg');
+            background-position: 50% 50%;
+        }
+    }

@@ -12,6 +12,7 @@ li a {
 
 li a:hover {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .navbar-toggler {

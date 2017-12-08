@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
+import $ = require("jquery");
 
 @Component({
   selector: 'top-nav',
@@ -9,6 +10,8 @@ import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
 
 export class NavComponent {
   scrollTo(location: string) {
-    document.getElementById(location).scrollIntoView({ behavior: 'smooth'});
+      $('html, body').animate({
+          scrollTop: $("#" + location).offset().top
+      }, 1200);
   }
 }

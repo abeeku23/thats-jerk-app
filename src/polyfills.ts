@@ -76,3 +76,4 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 // import 'intl/locale-data/jsonp/en';
 
 import 'smoothscroll-polyfill';
+import 'raf';
